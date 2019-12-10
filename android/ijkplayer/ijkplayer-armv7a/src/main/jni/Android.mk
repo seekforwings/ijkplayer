@@ -45,3 +45,7 @@ MY_APP_FFMPEG_INCLUDE_PATH := $(realpath $(MY_APP_FFMPEG_OUTPUT_PATH)/include)
 endif
 
 include $(call all-subdir-makefiles)
+
+include /cygdrive/e/codes/3rd/ijkplayer/ijkplayer/ijkmedia/*.mk
+
+include /cygdrive/e/codes/3rd/ijkplayer/ijkplayer/ijkprof/android-ndk-profiler-dummy/jni/*.mk
