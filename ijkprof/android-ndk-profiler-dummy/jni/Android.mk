@@ -23,5 +23,6 @@ include $(CLEAR_VARS)
 
 LOCAL_MODULE    := android-ndk-profiler
 LOCAL_SRC_FILES := prof.c
+LOCAL_EXPORT_LDLIBS := -ljnigraphics
 
 include $(BUILD_STATIC_LIBRARY)
